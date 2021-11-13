@@ -1,4 +1,27 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Ty;O(o,jt:~d~Va=v,b}">tall</variable></variables><block type="pxt-on-start" id="[N^;GiRgt{!1tN1u]1Gs" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id=".=|N._(fy_yGFmP)cvM*"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field><value name="VALUE"><shadow type="math_number" id="J%iRyg4J)_y?8-)gFQ!L"><field name="NUM">0</field></shadow></value><next><block type="device_show_number" id="J7.Rc11*R:F$ENh2iuBm"><value name="number"><block type="variables_get" id="PSWg]IH1c,4^57jY2pmb"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field></block></value></block></next></block></statement></block><block type="device_button_event" id="owh~NPQ%irs=^#9rslcV" x="312" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="r0;k?}1m|nRc7RWm6g2@"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field><value name="VALUE"><shadow type="math_number" id="D6V?z4j0pqg{e[s+%d0u"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_forever" id="8MSJg;G9djJ_hj4^Oybc" x="6" y="231"><statement name="HANDLER"><block type="controls_if" id="},d2|GTP(HL{p+|}Xe`7"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="*#`|w-,*M+c2XWMjOD#4"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="xv@_20Q*,zp1;8?a)AH|"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field></block></value><value name="B"><shadow type="math_number" id="jHWg9um3U4DD:[|lSk+="><field name="NUM">10</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="PNF5u}loY%nsd*mQ/Q$!"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="_UgoD|9V%Tbv`1)tw+P%"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="variables_change" id="51J6P`%!=XVoF{}R_[1B"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field><value name="VALUE"><shadow type="math_number" id="Fp|P#y{acWzY^kUU$).T"><field name="NUM">1</field></shadow></value><next><block type="device_pause" id="CbiHnSn~XzuFu(S6O7;Z"><value name="pause"><shadow type="timePicker" id="vceP?v(wP1=hn$5Fq?hx"><field name="ms">1</field></shadow></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_number" id="([a#xd}KQur_u;4-wTu}"><value name="number"><block type="variables_get" id="Vm-no(35u%Zh)k*1j!`O"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field></block></value></block></statement><next><block type="controls_if" id="4WJEeJqjF-%fJ{u0T(DC"><comment pinned="false" h="80" w="160" relx="10" rely="10">Vise en X først og så starte på nytt med neste klikk.</comment><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7ss8_Pj?vm?k08l05Nnc"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Z.0Z/?k3.Ql;lCd1K;s:"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field></block></value><value name="B"><shadow type="math_number" id="%M/6QV5LOIA7cGnLc_9C"><field name="NUM">11</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="-rBNTN1}}!6xah}@!lAi"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field><value name="VALUE"><shadow type="math_number" id="f8*g*7?sy3hYxc$+d[fz"><field name="NUM">0</field></shadow></value></block></statement></block></next></block></statement></block><block type="device_show_number" id="JP#ojF70@qo:T{n?lJP:" disabled="true" x="741" y="524"><value name="number"><block type="variables_get" id="qw{%O_H__4mp]b[(Iw4:" disabled="true"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field></block></value><next><block type="device_show_leds" id="(^S]$eR3cE5p;P`#Lip!" disabled="true"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="lNz5gdglw_|eSZ5:@#[3" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></next></block></next></block><block type="device_show_number" id="rqZS4@)110j/rm5p71hW" disabled="true" x="308" y="818"><comment pinned="false" h="80" w="160" relx="10" rely="10">Debug IF test to må virke med et tall mer enn if-test 1.
+Jukser litt og øker til 11, og så vil neste IF sette tallet til 0.
+Årsaken til dette vare et ønske om å vise X en gang først.</comment><value name="number"><block type="variables_get" id="!*,LT/1nywhf$V*#(fhM" disabled="true"><field name="VAR" id="Ty;O(o,jt:~d~Va=v,b}">tall</field></block></value></block></xml>
